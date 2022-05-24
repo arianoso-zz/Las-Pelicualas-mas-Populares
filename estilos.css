@@ -55,7 +55,6 @@ body {
 	height: 50px;
 	width: 200px;
 	background: #241744c5;
-	/*background: #241744;*/
 	color: #fff;
 	border-radius: 100px;
 	font-family: 'Montserrat', sans-serif;
@@ -77,9 +76,22 @@ body {
 	width: 85px;
 }
 
+.logo2{
+	width: 85px;
+	display: none;
+}
+
 .logo-tm{
 	margin-left: 200px;
 	width: 226px;
+}
+
+.logo-tm2{
+	width: 226px;
+	margin-top: 30px;
+	margin-right: 10px;
+	float: right;
+	display: none;
 }
 
 body::-webkit-scrollbar{
