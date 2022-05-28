@@ -148,3 +148,9 @@
     }
 }
 
+@media screen and (max-width:445px){
+.contenedor {
+	grid-template-columns: repeat(3, 1fr);
+
+}
+}
