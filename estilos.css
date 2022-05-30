@@ -72,7 +72,7 @@ body {
  }
 
 .logo{
-	margin-right: 300px;
+	margin-right: 200px;
 	width: 85px;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .logo-tm{
-	margin-left: 200px;
+	margin-left: 205px;
 	width: 226px;
 }
 
@@ -104,3 +104,13 @@ body::-webkit-scrollbar{
   border-radius: 0px;
   
   }
+
+  .pel{
+	text-decoration: none;
+	color: white;
+   margin-top: 65px;
+}
+
+.pel:hover{
+	color: #0bd3da;
+}
