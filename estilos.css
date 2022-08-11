@@ -65,16 +65,38 @@ header nav a:hover{
 	text-align: center;
 }
 
+.contenedor .pelicula .info{
+	background-color: #141414;
+	border-radius: 7px;
+	border: 1px solid #8b6cdb;
+	padding: 10px 10px 20px 10px;
+	
+}
+
+.contenedor .pelicula .popularidad{
+	float: left;
+	font-size: 11px !important;
+}
+
+.contenedor .pelicula .idioma{
+	font-size: 11px !important;
+}
+
 .contenedor .pelicula .titulo {
 	font-size: 15px;
 	font-weight: 600;
 	color: white;
+	padding: 5px;
 }
 
 .contenedor .pelicula .poster {
 	width: 95%;
 	margin-bottom: 5px;
 	border-radius: 5px;
+}
+
+.id-link{
+	text-decoration: none;
 }
 
 body::-webkit-scrollbar{
