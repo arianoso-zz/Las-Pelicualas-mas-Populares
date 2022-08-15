@@ -23,22 +23,32 @@ header {
 	padding: 30px 0;
 }
 
-header .contenedor {
+header .contenedorh, .logos {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
+header nav{
+	float: right;
+}
+
+  @keyframes animate {
+	0%, 100% {
+	  text-shadow: 1px -2px 0 #00ffff, -2px 1px 0 #f00;
+	}
+}
+
 header .logotipo {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
-	color: var(--rojo);
+	color: black;
+	animation: animate 10.5s linear infinite;
 	font-size: 40px;
 }
 
 header .logoimg{
 	width: 100px;
-	display: none;
 }
 
 header nav a {
@@ -50,6 +60,7 @@ header nav a {
 header nav a:hover{
 	color: #0bd3da;
 }
+
 
 .contenedor {
 	width: 90%;
@@ -68,7 +79,7 @@ header nav a:hover{
 .contenedor .pelicula .info{
 	background-color: #141414;
 	border-radius: 7px;
-	border: 1px solid #8b6cdb;
+	border: 1px solid #015d79;
 	padding: 10px 10px 20px 10px;
 	
 }
@@ -85,7 +96,7 @@ header nav a:hover{
 .contenedor .pelicula .titulo {
 	font-size: 15px;
 	font-weight: 600;
-	color: white;
+	color: white !important;
 	padding: 5px;
 }
 
@@ -105,7 +116,7 @@ body::-webkit-scrollbar{
   }
   
   body::-webkit-scrollbar-thumb{
-	background:#8b6cdb;
+	background:#015d79;
   border-radius: 0px;
   }
 
