@@ -125,6 +125,17 @@ body::-webkit-scrollbar{
   border-radius: 0px;
   }
 
+  a{
+	text-decoration: none;
+	color: white;
+  }
+
+  .trailer{
+	color: #00ffff;
+	font-size: 15px;
+	font-weight: 600;
+  }
+
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width:1262px){
 	.logo-tm{
