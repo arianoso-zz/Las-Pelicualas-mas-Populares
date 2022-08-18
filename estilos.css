@@ -39,7 +39,7 @@ header nav{
 	}
 }
 
-header .logotipo {
+.logotipo {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
 	color: black;
@@ -81,16 +81,20 @@ header nav a:hover{
 	border-radius: 7px;
 	border: 1px solid #015d79;
 	padding: 10px 10px 20px 10px;
-	
+	color: white;
 }
 
 .contenedor .pelicula .popularidad{
 	float: left;
-	font-size: 11px !important;
+	font-size: 12px !important;
+	padding: 5px;
+	font-weight: 600;
 }
 
 .contenedor .pelicula .idioma{
-	font-size: 11px !important;
+	font-size: 12px !important;
+	padding: 5px;
+	font-weight: 600;
 }
 
 .contenedor .pelicula .titulo {
@@ -104,6 +108,7 @@ header nav a:hover{
 	width: 95%;
 	margin-bottom: 5px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .id-link{
@@ -118,6 +123,17 @@ body::-webkit-scrollbar{
   body::-webkit-scrollbar-thumb{
 	background:#015d79;
   border-radius: 0px;
+  }
+
+  a{
+	text-decoration: none;
+	color: white;
+  }
+
+  .trailer{
+	color: #00ffff;
+	font-size: 15px;
+	font-weight: 600;
   }
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
