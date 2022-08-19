@@ -39,7 +39,7 @@ header nav{
 	}
 }
 
- header.logotipo {
+ header .logotipo {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
 	color: black;
@@ -62,7 +62,7 @@ header nav a:hover{
 }
 
 
-.contenedor {
+.contenedor, .populares {
 	width: 90%;
 	max-width: 5000px;
 	margin: 0px auto 20px auto;
@@ -72,14 +72,53 @@ header nav a:hover{
 	gap: 40px;
 }
 
-.contenedor .pelicula {
+.contenedor .pelicula{
 	text-align: center;
+}
+
+.populares{
+	text-align: center;
+}
+
+.populares .pelicula .info{
+	background-color: #141414;
+	border-radius: 7px;
+	border: 1px solid #f00;
+	padding: 10px 10px 20px 10px;
+	color: white;
+}
+
+.populares .pelicula .popularidad{
+	float: left;
+	font-size: 12px !important;
+	padding: 5px;
+	font-weight: 600;
+}
+
+.populares .pelicula .idioma{
+	font-size: 12px !important;
+	padding: 5px;
+	font-weight: 600;
+}
+
+.populares .pelicula .titulo {
+	font-size: 15px;
+	font-weight: 600;
+	color: white !important;
+	padding: 5px;
+}
+
+.populares .pelicula .poster {
+	width: 95%;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	cursor: pointer;
 }
 
 .contenedor .pelicula .info{
 	background-color: #141414;
 	border-radius: 7px;
-	border: 1px solid #015d79;
+	border: 1px solid #00ffff;
 	padding: 10px 10px 20px 10px;
 	color: white;
 }
@@ -131,9 +170,29 @@ body::-webkit-scrollbar{
   }
 
   .trailer{
-	color: #00ffff;
+	color: #049292;
 	font-size: 15px;
 	font-weight: 600;
+  }
+
+  .section h2{
+	color: white;
+	 justify-content: center;
+	 padding: 10px;
+	 margin: 5px;
+	 margin-left: 70px;
+	 font-size: 55px;
+	 color: #f00;
+  }
+
+  .section2 h2{
+	color: white;
+	 justify-content: center;
+	 padding: 10px;
+	 margin: 5px;
+	 margin-left: 70px;
+	 font-size: 55px;
+	 color: #00ffff;
   }
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
